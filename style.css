@@ -1,7 +1,28 @@
+body {
+	background-color: rgb(234, 234, 234);
+}
+
 .logo {
     margin: auto;
 /*	border: 3px solid black;*/
 	text-align: center;
+	visibility: hidden;
+}
+
+.titles {
+	margin: auto;
+	padding-left: 5%;
+}
+
+.titles h1.titleText {
+	font-size: 35px;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+.titles h2.subTitleText {
+	font-size: 20px;
+	font-family: Helvetica;
 }
 
 .logo a.logoText {
@@ -9,32 +30,35 @@
 	font-family: Helvetica;
 	font-weight: bold;
 	text-decoration: none;
-	font-size: 50px;
+	font-size: 35px;
 }
 
-h2 {
+/*.chooseCurrencyText {
 	font-family: Helvetica;
-	font-size: 35px;
-/*	border: 3px solid black;*/
-	margin-top: 10%;
-}
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-top: 5%;
+}*/
 
 .currencyChoice {
 	display: grid;
   	grid-template-columns: auto auto auto auto auto;
   	padding: 10px;
+  	margin-top: 10%;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+/*  border: 1px solid rgba(0, 0, 0, 0.8);*/
   padding: 10px;
   font-size: 30px;
   text-align: center;
+  font-family: Avenir;
 }
 
 .q-images {
-	height: 50px;
-	width: 95px;
-	border: 1px solid black;
+	height: 100px;
+	width: auto;
+/*	border: 1px solid black;*/
 }
